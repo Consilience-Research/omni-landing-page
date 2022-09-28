@@ -5128,9 +5128,6 @@ body.elementor-editor-active [data-arts-os-animation] {
 /*!========================================================================
  * 63. Section CTA
  * ======================================================================!*/
-.section-cta {
-  height: 700px;
-}
 
  .section-cta__background {
   position: absolute;
