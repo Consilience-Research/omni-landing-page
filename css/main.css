@@ -252,6 +252,7 @@ html {
   -webkit-text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: midtonescale;
   font-kerning: none;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -755,6 +756,10 @@ a:hover {
 }
 .button__icon i {
   font-size: 24px;
+}
+
+.button_width_50 {
+  width: 50%;
 }
 
 .button_fullwidth {
