@@ -164,7 +164,7 @@
                 </a>
             </div>
             <!-- - logo -->
-            <!-- desktop menu-->
+            <!-- desktop menu--
             <div class="col-auto header__col d-none d-lg-block">
               <ul class="menu js-menu">
                 <li><a href="#section1">Install</a>
@@ -193,8 +193,15 @@
             </div>
             <!-- - desktop menu -->
             <!-- burger icon -->
-            <div class="col-auto header__col d-lg-none">
-              <div class="header__burger" id="js-burger" data-arts-cursor="data-arts-cursor" data-arts-cursor-scale="1.7" data-arts-cursor-magnetic="data-arts-cursor-magnetic" data-arts-cursor-hide-native="true">
+            <div class="col-auto header__col">
+              <div
+                class="header__burger"
+                id="js-burger"
+                data-arts-cursor="data-arts-cursor"
+                data-arts-cursor-scale="1.7"
+                data-arts-cursor-magnetic="data-arts-cursor-magnetic"
+                data-arts-cursor-hide-native="true"
+              >
                 <div class="header__burger-line"></div>
                 <div class="header__burger-line"></div>
                 <div class="header__burger-line"></div>
@@ -222,19 +229,44 @@
           <!-- fullscreen menu -->
           <div class="header__wrapper-menu">
             <ul class="menu-overlay js-menu-overlay">
-              <li class="menu-item-has-children">
+              <li>
                 <a class="h2" href="#section1" data-pjax-link="overlayMenu">
                   <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">I. Installing Omni</div>
                 </a>
               </li>
-              <li class="menu-item-has-children">
+              <li>
                 <a class="h2" href="#section2" data-pjax-link="overlayMenu">
                   <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">II. Google Docs</div>
                 </a>
               </li>
-              <li class="menu-item-has-children">
+              <li>
                 <a class="h2" href="#section3" data-pjax-link="overlayMenu">
                   <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">III. Upload a Dataset</div>
+                </a>
+              </li>
+              <li>
+                <a class="h2" href="#section4" data-pjax-link="overlayMenu">
+                  <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">IV. Dataset Selection</div>
+                </a>
+              </li>
+              <li>
+                <a class="h2" href="#section5" data-pjax-link="overlayMenu">
+                  <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">V. Using Omni</div>
+                </a>
+              </li>
+              <li>
+                <a class="h2" href="#section6" data-pjax-link="overlayMenu">
+                  <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">VI. Sharing Datasets</div>
+                </a>
+              </li>
+              <li>
+                <a class="h2" href="#section7" data-pjax-link="overlayMenu">
+                  <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">VII. Internet Browsing</div>
+                </a>
+              </li>
+              <li>
+                <a class="h2" href="#section8" data-pjax-link="overlayMenu">
+                  <div class="menu-overlay__item-wrapper split-text js-split-text" data-split-text-type="lines">VIII. Write Tool</div>
                 </a>
               </li>
             </ul>
@@ -419,7 +451,7 @@
                       <h2>Upload a Dataset</h2>
                     </div>
                     <div class="w-100"></div>
-                    <div class="section-content__text split-text js-split-text" data-split-text-type="words" data-split-text-set="lines">
+                    <div class="section-content__text split-text js-split-text mb-1" data-split-text-type="words" data-split-text-set="lines">
                       <p class="section-content__text split-text js-split-text" data-split-text-type="words" data-split-text-set="lines">
                         <b>1.</b> On the top right hand corner click on the Datasets icon.
                       </p>
@@ -433,16 +465,22 @@
                         <b>5.</b> Or copy and paste a website of your choice into the <b>Upload a website</b> section.</p>
                       <p class="section-content__text split-text js-split-text" data-split-text-type="words" data-split-text-set="lines">
                         <b>6.</b> Or <b>upload your documents/folders from Google Drive</b> by logging into your Google Drive account.
-                        <p class="p-indent">
-                          For best results, please upload <b>data that is valuable to you (ideally 10,000+ words)</b>, such as your personal writing, favourite books or blogs, important research documents, team documents, and so forth. 
-                        </p>
-                        <p class="p-indent">
-                          Note that we never sell or share user data to third parties, and follow industry best-practices to keep your data private and secure.
-                          You can read more about our <a href="https://omnilabs.ai/privacy" target="_blank"><b>Privacy Policy here</b></a>.
-                        </p>
                       </p>
                       <p class="section-content__text split-text js-split-text" data-split-text-type="words" data-split-text-set="lines">
-                        <b>7.</b> Once you have uploaded your documents, folders, or websites, you will be redirected to a Success screen. Your dataset will finish processing in approximately <b>10-30 minutes</b>; you can check on the status by navigating back to the Datasets page.</p>
+                        <b>7.</b> Once you have uploaded your documents, folders, or websites, you will be redirected to a Success screen. 
+                        Your dataset will finish processing in approximately <b>10-30 minutes</b>; you can check on the status by navigating back to the Datasets page.
+                      </p>
+                    </div>
+                    <div class="w-100"></div>
+                    <div class="section-content__heading mb-1" data-split-text-type="lines,words" data-split-text-set="words">
+                      <h3>Upload Valuable Knowledge</h3>
+                    </div>
+                    <div class="section-content__text split-text js-split-text" data-split-text-type="words" data-split-text-set="lines">
+                      <p class="section-content__text split-text js-split-text" data-split-text-type="words" data-split-text-set="lines">
+                        For best results, please upload <b>data that is valuable to you (ideally 10,000+ words)</b>, such as your personal writing, favourite books or blogs, important research documents, team documents, and so forth. 
+                        Note that we never sell or share user data to third parties, and follow industry best-practices to keep your data private and secure.
+                        You can read more about our <a href="https://omnilabs.ai/privacy" target="_blank"><b>Privacy Policy here</b></a>.
+                      </p>
                     </div>
                   </div>
                 </section>
@@ -492,7 +530,7 @@
                     <p class="section-content__text split-text js-split-text" data-split-text-type="words" data-split-text-set="lines">
                       <b>2.</b> Click any of the other Datasets to switch to it. For instance, click on the <b>blog.samaltman.com</b> item to select Sam Altman's blog dataset. 
                     </p>
-                    <div class="section-content__heading split-text js-split-text mb-1" data-split-text-type="lines,words" data-split-text-set="words">
+                    <div class="section-content__heading mb-1" data-split-text-type="lines,words" data-split-text-set="words">
                       <h3>Multiselect</h3>
                     </div>
                     <p class="section-content__text split-text js-split-text" data-split-text-type="words" data-split-text-set="lines">
@@ -545,10 +583,13 @@
                         <p class="section-content__text split-text js-split-text" data-split-text-type="words" data-split-text-set="lines">
                           <b>1. How to Query:</b> Omni reads the text that you type or highlighting in your browser and submits it as a query in real-time. You can also use the <b>Omni search...</b> bar to query.
                         </p>
-                        <p class="p-indent">For best retrieval results, you want to make sentence level queries. Hiring entire sentences will result in more relevant retrievals in Omni. Also make sure to use meaningful text in your queries; eg. words like "the", "in", or "and" are not semantically meaningful, whereas "artificial intelligence", "economic downturn", or "stoicism" are semantically meaningful.</p>
                         <p class="section-content__text split-text js-split-text" data-split-text-type="words" data-split-text-set="lines">
                           <b>2. Expanded View:</b> To view the context behind any retrieval, click on the Expand button (outward arrows icon) in the bottom right corner of the retrieval item. 
                         </p>
+                        <div class="section-content__heading mb-1" data-split-text-type="lines,words" data-split-text-set="words">
+                          <h3>Best Practices</h3>
+                        </div>
+                        <p class="section-content__text split-text js-split-text" data-split-text-type="words" data-split-text-set="lines">For best retrieval results, you want to make sentence level queries. Hiring entire sentences will result in more relevant retrievals in Omni. Also make sure to use meaningful text in your queries; eg. words like "the", "in", or "and" are not semantically meaningful, whereas "artificial intelligence", "economic downturn", or "stoicism" are semantically meaningful.</p>
                       </div>
                     </div>
                   </section>
