@@ -5196,6 +5196,10 @@ body.elementor-editor-active [data-arts-os-animation] {
   max-width: 800px;
 }
 
+.p-indent {
+  margin-left: 2rem;
+}
+
 .text-left .section-content__text {
   margin-left: 0;
   margin-right: auto;
