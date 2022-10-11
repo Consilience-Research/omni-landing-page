@@ -1530,6 +1530,11 @@ class Pswp extends BaseComponent {
 /*!========================================================================
 	5. Scroll
 	======================================================================!*/
+
+function scrollTop() {
+	document.body.scrollTop = 0;
+	document.documentElement.scrollTop = 0;
+}
 class Scroll {
   static getEasingScroll(pos) {
     if (pos === 0) return 0;
