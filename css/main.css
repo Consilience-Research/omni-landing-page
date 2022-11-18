@@ -3084,29 +3084,52 @@ div.wpcf7-validation-errors, div.wpcf7-acceptance-missing {
   position: relative;
   width: 40px;
   height: 38px;
-  vertical-align: middle;
+  vertical-align: left;
   cursor: pointer;
   pointer-events: initial;
   z-index: 500;
 }
+
 .header__burger:hover .header__burger-line:nth-of-type(1) {
   transform: scaleX(1);
+  opacity: 0;
+  visibility: hidden;
 }
+
 .header__burger:hover .header__burger-line:nth-of-type(2) {
   transform: scaleX(0.75);
+  opacity: 0;
+  visibility: hidden;
 }
 .header__burger:hover .header__burger-line:nth-of-type(3) {
   transform: scaleX(1);
+  opacity: 0;
+  visibility: hidden;
 }
 
+.header__burger__opened:hover .upload-dataset {
+  transform: scaleX(1);
+  transition: all 0.2s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+
+.header__burger_opened .upload-dataset {
+  transform: scaleX(0);
+  transition: all 0.2s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
 .header__burger_opened .header__burger-line:nth-of-type(1), .header__burger_opened:hover .header__burger-line:nth-of-type(1) {
   transform: scaleX(1) rotate(45deg) translate(13px, 20px);
+  opacity: 1;
+  visibility: visible;
 }
 .header__burger_opened .header__burger-line:nth-of-type(2), .header__burger_opened:hover .header__burger-line:nth-of-type(2) {
   transform: scaleX(0);
+  opacity: 0;
+  visibility: hidden;
 }
 .header__burger_opened .header__burger-line:nth-of-type(3), .header__burger_opened:hover .header__burger-line:nth-of-type(3) {
   transform: scaleX(1) rotate(-45deg) translate(13px, -20px);
+  opacity: 1;
+  visibility: visible;
 }
 
 .header__burger-line {
@@ -3121,12 +3144,16 @@ div.wpcf7-validation-errors, div.wpcf7-acceptance-missing {
   left: 0;
   transform-origin: right center;
   transform: scaleX(0.75);
+  opacity: 0;
+  visibility: hidden;
 }
 .header__burger-line:nth-of-type(2) {
   top: 0;
   left: 0;
   bottom: 0;
   margin: auto;
+  opacity: 0;
+  visibility: hidden;
   transform-origin: left center;
 }
 .header__burger-line:nth-of-type(3) {
@@ -3134,6 +3161,8 @@ div.wpcf7-validation-errors, div.wpcf7-acceptance-missing {
   left: 0;
   transform-origin: right center;
   transform: scaleX(0.75);
+  opacity: 0;
+  visibility: hidden;
 }
 
 .header__wrapper-menu {
