@@ -235,7 +235,7 @@
       <!-- - Cursor Follower-->
       <!-- PAGE HEADER -->
       <header
-        class="header header_menu-right header_fixed container-fluid js-header-sticky"
+        class="header header_menu-right header_fixed header_sticky container-fluid bg-white"
         id="page-header"
         data-arts-theme-text="light"
         data-arts-header-sticky-theme="bg-white"
@@ -272,10 +272,55 @@
                 </a>
             </div>
             <!-- - logo -->
-            
-            <!-- burger icon -->
+            <!-- desktop menu-->
+            <div class="col-auto header__col d-none d-lg-block">
+              <ul class="menu js-menu">
+                <li>
+                  <a href="https://omnilabs.ai/manage_datasets#create_datasets"
+                    ><i class="fa fa-cloud-upload"></i> New Dataset
+                  </a>
+                </li>
+                <li>
+                  <a href="https://omnilabs.ai/manage_datasets#my_datasets">My Datasets</a>
+                </li>
+                <li>
+                  <a href="https://omnilabs.ai/create_prompt">My Prompts</a>
+                </li>
+                <li class="menu-item-has-children">
+                  <a href="https://omnilabs.ai/onboarding">Guide to Omni</a>
+                  <ul class="sub-menu">
+                    <li><a href="https://omnilabs.ai/onboarding#section1">Installation</a></li>
+                    <li><a href="https://omnilabs.ai/onboarding#section2">Google Docs</a></li>
+                    <li><a href="https://omnilabs.ai/onboarding#section3">Upload Dataset</a></li>
+                    <li><a href="https://omnilabs.ai/onboarding#section4">Select Dataset</a></li>
+                    <li><a href="https://omnilabs.ai/onboarding#section5">Using Omni</a></li>
+                    <li><a href="https://omnilabs.ai/onboarding#section6">Share Dataset</a></li>
+                    <li><a href="https://omnilabs.ai/onboarding#section7">Internet Browsing</a></li>
+                    <li><a href="https://omnilabs.ai/onboarding#section8">Omni Write App</a></li>
+                  </ul>
+                </li>
+                <li class="menu-item-has-children">
+                  <a href="https://omnilabs.ai/manage_datasets">My Account</a>
+                  <ul class="sub-menu">
+                    <!--li>
+                    <a
+                    href="https://chrome.google.com/webstore/detail/consilience/mlcoidohpcjfjnknjjggenjccckcgmpn"
+                    target="_blank"
+                    >Extension</a
+                    >
+                  </li-->
+                    <li><a href="https://omnilabs.ai/write" target="_blank">Write</a></li>
+                    <li><a href="https://omnilabs.ai/unsubscribe">Cancel</a></li>
+                    <li><a href="https://omnilabs.ai/privacy">Privacy</a></li>
+                    <li><a href="https://omnilabs.ai/logout">Log Out</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <!-- - desktop menu -->
+            <!-- burger icon --
             <div class="col-auto header__col">
-              <!--div
+              <div
                 class="header__burger"
                 id="js-burger"
                 data-arts-cursor="data-arts-cursor"
@@ -283,11 +328,14 @@
                 data-arts-cursor-magnetic="data-arts-cursor-magnetic"
                 data-arts-cursor-hide-native="true"
               >
+                <div class="header__burger-line"></div>
+                <div class="header__burger-line"></div>
+                <div class="header__burger-line"></div>
               </div>
-              <!-- button -->
+              <!-- button --
               <a class="button button_solid button_black mb-0-5" data-hover="Start trial" href="https://checkout.stripe.com/c/pay/plink_1LW3ZlArzJCDuCQnzJFfU7ru#fidkdWxOYHwnPyd1blppbHNgWjA0SVNmT1FEd39PRkFwRlRrc189M28zdzFpM2l0XHw9X2tdczNPY2RfNER%2FQVE0MlNySG1VTlNobVw8bGFkal98PXxodzZpPGg2aW1OUXxna29uNDdDXWtWNTVCc1I2YjI3bicpJ3VpbGtuQH11anZgYUxhJz8nMWJyZkpMMUdqM2ZoZjZWZEBAJyknd2BjYHd3YHdKd2xibGsnPydtcXF1dj8qKmpoa2xpZGd2K2RsKid4JSUl" target="_blank">
                 <span class="button__label-hover">Try for free</span>
-              </a>
+              </a--
             </div>
             <!-- - burger icon -->
             <!-- "back" button for submenu nav -->
@@ -322,7 +370,6 @@
           </div>
         </div>
         <!-- - top bar -->
-        <!-- - fullscreen overlay container -->
       </header>
       <!-- - PAGE HEADER -->
       <!-- PAGE MAIN -->

@@ -3092,19 +3092,13 @@ div.wpcf7-validation-errors, div.wpcf7-acceptance-missing {
 
 .header__burger:hover .header__burger-line:nth-of-type(1) {
   transform: scaleX(1);
-  opacity: 0;
-  visibility: hidden;
 }
 
 .header__burger:hover .header__burger-line:nth-of-type(2) {
   transform: scaleX(0.75);
-  opacity: 0;
-  visibility: hidden;
 }
 .header__burger:hover .header__burger-line:nth-of-type(3) {
   transform: scaleX(1);
-  opacity: 0;
-  visibility: hidden;
 }
 
 .header__burger__opened:hover .upload-dataset {
@@ -3144,16 +3138,12 @@ div.wpcf7-validation-errors, div.wpcf7-acceptance-missing {
   left: 0;
   transform-origin: right center;
   transform: scaleX(0.75);
-  opacity: 0;
-  visibility: hidden;
 }
 .header__burger-line:nth-of-type(2) {
   top: 0;
   left: 0;
   bottom: 0;
   margin: auto;
-  opacity: 0;
-  visibility: hidden;
   transform-origin: left center;
 }
 .header__burger-line:nth-of-type(3) {
@@ -3161,8 +3151,6 @@ div.wpcf7-validation-errors, div.wpcf7-acceptance-missing {
   left: 0;
   transform-origin: right center;
   transform: scaleX(0.75);
-  opacity: 0;
-  visibility: hidden;
 }
 
 .header__wrapper-menu {
@@ -3408,7 +3396,7 @@ div.wpcf7-validation-errors, div.wpcf7-acceptance-missing {
   color: #fff;
 }
 .header[data-arts-theme-text=light] a:hover {
-  color: #fff;
+  color: var(--color-midtone-3);
 }
 .header[data-arts-theme-text=light] .header__burger-line {
   background-color: #fff;
