@@ -1,0 +1,6 @@
+[[redirects]]
+  from = "/onboarding"
+  to = "https://omnilabs.ai/onboarding"
+  status = 200
+  force = true
+  headers = {X-From = "Netlify"}
