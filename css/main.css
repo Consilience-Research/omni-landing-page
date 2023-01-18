@@ -3308,7 +3308,7 @@ div.wpcf7-validation-errors, div.wpcf7-acceptance-missing {
   color: var(--color-midtone-2);
 }
 
-@media screen and (max-width: 1184px) {
+@media screen and (max-width: 1200px) {
   .logo__img-primary {
     opacity: 0 !important;
     visibility: hidden !important;
