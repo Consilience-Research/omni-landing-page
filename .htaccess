@@ -15,4 +15,8 @@
  RewriteRule ^(.*)$ $1.html [NC,L]
 
  # Redirect /onboarding to https://omnilabs.ai/onboarding
- Redirect 301 /onboarding http://omnilabs.ai/onboarding
+Options +FollowSymLinks
+RewriteEngine On
+RewriteCond %{REQUEST_URI}/ beta
+RewriteRule ^(.*) http://omnilabs.ai/%{REQUEST_URI} [R=302,NC]
+RewriteRule ^(.*) http://omnilabs.ai/onboarding/%{REQUEST_URI} [R=302,NC]
