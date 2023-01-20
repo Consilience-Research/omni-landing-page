@@ -3354,6 +3354,7 @@ div.wpcf7-validation-errors, div.wpcf7-acceptance-missing {
 .header_sticky {
   position: fixed;
   top: 0;
+  max-height: 75px;
   left: 0;
   width: 100%;
   padding-top: 15px;
@@ -3395,7 +3396,7 @@ div.wpcf7-validation-errors, div.wpcf7-acceptance-missing {
 .header[data-arts-theme-text=light] .logo__text-title {
   color: #fff;
 }
-.header[data-arts-theme-text=light] a:hover {
+.header[data-arts-theme-text=light] li>a:hover {
   color: var(--color-midtone-3);
 }
 .header[data-arts-theme-text=light] .header__burger-line {
